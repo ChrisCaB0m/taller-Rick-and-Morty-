@@ -1,0 +1,25 @@
+#characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: 1500px;
+    background-image: url(https://i.pinimg.com/736x/45/6b/73/456b733f852453637221b18ec9532962.jpg);
+    
+  }
+  
+  .character-card {
+    background-color: rgb(29, 37, 125);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-image {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
